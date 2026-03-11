@@ -38,7 +38,7 @@ nav{
     display: block;
    margin-left: auto;
    margin-right: auto;
-    border-radius: 10px;
+    border-radius: 20px;
     padding: 0px 25px;
 }
 .menu-in{
@@ -56,6 +56,7 @@ nav{
     display: flex;
     justify-content: center;
     list-style: none;
+    align-items: center;
 }
 .menu li{
     margin-left: 10px;
@@ -66,6 +67,7 @@ nav{
     color: black;
     text-decoration: none;
     transition: 0.3s ease;
+    gap: 10px;
 }
 .menu li a:hover{
     color: aqua;
@@ -103,6 +105,26 @@ cursor: pointer;
     background-color: #ccc;
 }
 /* index header text */
-.header-text p{
+.Tmc{
+    display: flex;
+    justify-self:flex-end;
+    flex-direction: column;
+    margin-right: 100px;
+    margin-top: 380px ;
 
 }
+
+.header-text h1{
+    color: #e9ad1c;
+    font-family:'Mythology Of Egypt', Courier, monospace;
+    font-size: 96px;
+    margin: 0px;
+}
+.header-text p{
+    color: #ffffff;
+    font-family: 'metamorphous', Courier, monospace;
+    font-size: 19pt;
+
+}
+
+
